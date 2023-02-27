@@ -1,0 +1,50 @@
+.container {
+  background: #36373c;
+  max-width: 100vw;
+  color: #fff;
+}
+
+.card-content {
+  display: flex;
+}
+
+.imagen {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card-img {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 1% 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.name {
+  text-align: center;
+}
+
+.social-media-div {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  display: flex;
+  gap: 5rem;
+  list-style-type: none;
+}
+
+.github,
+.linkedin,
+.twitter {
+  font-size: 300%;
+  cursor: pointer;
+}
