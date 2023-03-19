@@ -1,0 +1,47 @@
+nav {
+  background: #003b46;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container,
+.menu-container {
+  margin: 1% 5%;
+}
+
+.ham-btn,
+.logo {
+  color: #c4dfe6;
+}
+
+.list-container {
+  display: none;
+}
+
+.fa-bars {
+  transition: 1s;
+}
+
+.fa-bars:hover {
+  transform: rotate(360deg);
+}
+
+.logo {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

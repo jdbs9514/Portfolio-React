@@ -1,5 +1,4 @@
 import React from 'react';
-import Carousel from './Carousel';
 import Navbar from './Navbar';
 import Presentation from './Presentation';
 import Projects from './Projects';
@@ -10,7 +9,6 @@ function PortfolioContainer() {
   return (
     <div>
       <Navbar />
-      <Carousel />
       <Presentation />
       <Projects />
       <Form />

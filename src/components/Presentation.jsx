@@ -1,46 +1,38 @@
 import React from 'react';
 import josue from '../assets/josue.png';
 import '../style/Presentation.css';
+import twitter from '../assets/twitter.png';
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
 
 function Presentation() {
   return (
     <>
-      <div className="container">
-        <div className="card-content">
-          <div className="card-img">
-            <img src={josue} alt="josue" className="imagen" />
+      <section className="presentation">
+        <div className="presentation-container">
+          <div className="img-container">
+            <img src={josue} alt="foto" className="img" />
           </div>
-          <div className="card-info">
-            <h1 className="name">Josue Benavides</h1>
-            <p className="presentation">
-              Hi friends! Iam a software Developer who specializes
-              in building functional and professional software for
-              big companies. I am open to learn new technologies,
-              and contribute with a grain of sand in professional
-              projects.
-            </p>
-            <div className="social-media-div">
-              <ul className="social-media">
-                <li className="github">
-                  <a href="https://github.com/jdbs9514">
-                    <i className="fa-brands fa-github" />
-                  </a>
-                </li>
-                <li className="linkedin">
-                  <a href="https://www.linkedin.com/in/macoin/">
-                    <i className="fa-brands fa-linkedin" />
-                  </a>
-                </li>
-                <li className="twitter">
-                  <a href="https://twitter.com/JODA1015">
-                    <i className="fa-brands fa-twitter" />
-                  </a>
-                </li>
-              </ul>
+          <div className="text-container">
+            <div className="text-cont">
+              <h1 className="name">
+                Hi, I am Josue Benavides,
+                full stack developer
+              </h1>
+              <p className="text">
+                One of the things I am most passionate
+                about in my life is developing functional
+                and intuitive web pages for user management.
+              </p>
             </div>
           </div>
+          <div className="social-media">
+            <a href="https://github.com/jdbs9514"><img src={github} alt="github" className="github" /></a>
+            <a href="https://www.linkedin.com/in/macoin/"><img src={linkedin} alt="linkedin" className="linkedin" /></a>
+            <a href="https://twitter.com/JODA1015"><img src={twitter} alt="twitter" className="twitter" /></a>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
