@@ -1,10 +1,8 @@
-nav {
-  background: #003b46;
-}
-
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 .logo-container,
@@ -12,9 +10,14 @@ nav {
   margin: 1% 5%;
 }
 
+#menu-container {
+  margin-top: 2%;
+}
+
 .ham-btn,
 .logo {
   color: #c4dfe6;
+  margin-top: 2%;
 }
 
 .list-container {
@@ -23,6 +26,7 @@ nav {
 
 .fa-bars {
   transition: 1s;
+  font-size: 1.7rem;
 }
 
 .fa-bars:hover {
@@ -30,6 +34,7 @@ nav {
 }
 
 .logo {
+  font-size: 1.7rem;
   animation-duration: 3s;
   animation-name: slidein;
 }

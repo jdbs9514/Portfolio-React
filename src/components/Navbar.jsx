@@ -9,7 +9,7 @@ function Navbar() {
           <div className="logo-container">
             <span className="logo">Logo</span>
           </div>
-          <div className="menu-container">
+          <div className="menu-container" id="menu-container">
             <span className="ham-btn"><i className="fa-sharp fa-solid fa-bars" /></span>
             <div className="list-container">
               <ul className="list-menu">
