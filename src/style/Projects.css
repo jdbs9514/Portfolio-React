@@ -1,0 +1,17 @@
+.projects {
+  background-image: repeating-linear-gradient(45deg, #66a5ad, #66a5ad 15px, #c4e0e5 15px, #c4e0e5 30px);
+  background-color: #66a5ad;
+  background-size: 20px 20px;
+  border: 1px solid #66a5ad;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-project {
+  width: 80%;
+  margin-top: 20%;
+  border-radius: 5%;
+}
