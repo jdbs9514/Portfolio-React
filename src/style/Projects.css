@@ -5,7 +5,7 @@
   border: 1px solid #66a5ad;
 }
 
-.title {
+.div-img {
   display: flex;
   justify-content: center;
 }
@@ -13,5 +13,51 @@
 .photo-project {
   width: 80%;
   margin-top: 20%;
+  border-radius: 5%;
+}
+
+.div-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.project-name {
+  color: #c4dfe6;
+  margin: 5% 25%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 10px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  background-color: #d5d5d5;
+  letter-spacing: .05em;
+  text-shadow: 
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+.text-project {
+  color: #c4dfe6;
+  margin: 5% 3%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 10px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  background-color: #d5d5d5;
+  letter-spacing: .05em;
+  text-shadow: 
+    7px 7px 0px rgba(0, 0, 0, 0.2);
   border-radius: 5%;
 }
