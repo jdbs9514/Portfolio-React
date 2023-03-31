@@ -3,28 +3,6 @@
   background-color: #66a5ad;
   background-size: 20px 20px;
   border: 1px solid #66a5ad;
-  border-radius: 2%;
-  margin-top: 1%;
-}
-
-.projects-div {
-  display: flex;
-  justify-content: center;
-}
-
-.projects-title {
-  color: #c4dfe6;
-  margin: 5% 25%;
-  margin-top: 5%;
-  text-align: center;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  padding: 10px 5px;
-  text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  color: #2c2c2c;
-  letter-spacing: 0.05em;
-  text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5%;
 }
 
 .div-img {
@@ -32,7 +10,7 @@
   justify-content: center;
 }
 
-.photo-project {
+.photo-project2 {
   width: 80%;
   margin-top: 20%;
   border-radius: 5%;
@@ -53,7 +31,7 @@
   margin-top: 10%;
 }
 
-.project-name {
+.project-name3 {
   color: #c4dfe6;
   margin: 5% 25%;
   margin-top: 10%;
@@ -69,7 +47,7 @@
   border-radius: 5%;
 }
 
-.text-project {
+.text-project3 {
   color: #c4dfe6;
   margin: 5% 3%;
   text-align: center;
@@ -86,7 +64,8 @@
 
 .html,
 .css,
-.js {
+.js,
+.react {
   background: #66a5ad;
   border-radius: 50%;
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
@@ -96,7 +75,8 @@
 
 .html:hover,
 .css:hover,
-.js:hover {
+.js:hover,
+.react:hover {
   width: 110%;
 }
 
@@ -113,12 +93,6 @@
   border: none;
   background: #66a5ad;
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
-  transition: background-color 2s;
-}
-
-.see-btn:hover {
-  background: #396df2;
-  color: #fff;
 }
 
 a {

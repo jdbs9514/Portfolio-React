@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import '../style/Projects.css';
 import picProject1 from '../assets/project1/img1.png';
 import picProject2 from '../assets/project1/img2.png';
@@ -31,6 +30,9 @@ function ProjectFirst() {
   return (
     <section>
       <div className="projects">
+        <div className="projects-div">
+          <h1 className="projects-title">Projects</h1>
+        </div>
         <div className="div-img">
           <div id="carouselExample" className="carousel slide">
             <div className="carousel-inner">
@@ -78,14 +80,14 @@ function ProjectFirst() {
               <li><img src={arrObject[0].logos[0]} alt="html" className="html" /></li>
               <li><img src={arrObject[0].logos[1]} alt="css" className="css" /></li>
               <li><img src={arrObject[0].logos[2]} alt="js" className="js" /></li>
-              <li><img src={arrObject[0].logos[3]} alt="react" className="react" /></li>
             </ul>
           </div>
           <p className="text-project">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-            aliquid quod expedita tenetur quia, id quas quaerat quam repellat
-            ducimus nisi blanditiis, explicabo reprehenderit, sit i distinctio
-            officiis ullam fugiat quis. Et vel quod officiis suscipit,
+            The book fair page is a page dedicated
+            to all the lovers of reading, in this
+            page you can find information about the
+            last book fair in Peru where several well-known
+            writers were presented.
           </p>
         </div>
         <div className="div-button">
