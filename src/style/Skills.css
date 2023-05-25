@@ -1,0 +1,41 @@
+.skills-container {
+  background: #07575b;
+  background-size: 50px 50px;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  border-radius: 2%;
+  margin: 2%;
+}
+
+.skill-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  justify-content: center;
+  place-items: center;
+}
+
+.skills-title {
+  margin: 5% 25%;
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+  letter-spacing: 0.05em;
+  text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+.skill {
+  width: 130%;
+  transition: 1s;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  background: #07575b;
+}
+
+.skill:hover {
+  width: 80%;
+}
