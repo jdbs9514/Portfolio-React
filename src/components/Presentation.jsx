@@ -1,5 +1,5 @@
 import React from 'react';
-import josue from '../assets/josue.png';
+import josue from '../assets/profile.jpg';
 import '../style/Presentation.css';
 import twitter from '../assets/twitter.png';
 import linkedin from '../assets/linkedin.png';

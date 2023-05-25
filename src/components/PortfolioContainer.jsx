@@ -5,6 +5,7 @@ import ProjectFirst from './ProjectFirst';
 import ProjectSecond from './ProjectSecond';
 import ProjectThird from './ProjectThird';
 import ProjectFourth from './ProjectFourth';
+import Skills from './Skills';
 import Form from './Form';
 import Footer from './Footer';
 
@@ -17,6 +18,7 @@ function PortfolioContainer() {
       <ProjectSecond />
       <ProjectThird />
       <ProjectFourth />
+      <Skills />
       <Form />
       <Footer />
     </div>
