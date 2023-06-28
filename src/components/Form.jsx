@@ -21,14 +21,22 @@ function Form() {
     setFormData({
       name: '',
       email: '',
-      menssage: '',
+      message: '',
     });
 
     try {
       const response = await axios.post('https://formspree.io/f/mknlwzvg', formData);
 
       if (response.status === 200) {
-        console.log('form succesfully');
+        const buttonDiv = document.querySelector('.button-div');
+        const divMessage = document.createElement('div');
+        divMessage.classList.add('div-message');
+        buttonDiv.appendChild(divMessage);
+
+        const messageSucces = document.createElement('p');
+        messageSucces.classList.add('message-succes');
+        messageSucces.innerHTML = '<i class="fa-solid fa-check"></i> successfully completed';
+        divMessage.appendChild(messageSucces);
       } else {
         console.log('Must be an error');
       }
@@ -87,8 +95,8 @@ function Form() {
               onChange={handleInputChange}
             />
           </div>
-          <div className="mb-3 d-flex justify-content-center">
-            <button className="btn btn-secondary mb-4" type="submit">Send Message</button>
+          <div className="mb-3 d-flex justify-content-center flex-column button-div">
+            <button className="btn btn-secondary mb-4 mx-auto" type="submit">Send Message</button>
           </div>
         </form>
       </div>

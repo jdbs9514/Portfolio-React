@@ -39,3 +39,8 @@
   text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5%;
 }
+
+.message-succes {
+  text-align: center;
+  color: #fff;
+}
