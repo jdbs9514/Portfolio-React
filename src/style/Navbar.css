@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.list-menu {
+  list-style-type: none;
+}
+
 .logo-container,
 .menu-container {
   margin: 1% 5%;
@@ -18,10 +22,17 @@
 .logo {
   color: #c4dfe6;
   margin-top: 2%;
+  background: none;
+  border: none;
 }
 
-.list-container {
-  display: none;
+.fa-xmark {
+  transition: 1s;
+  font-size: 1.7rem;
+}
+
+.fa-xmark:hover {
+  transform: rotate(360deg);
 }
 
 .fa-bars {

@@ -1,7 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../style/Navbar.css';
 
 function Navbar() {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+  const handleToggle = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
+  const links = [
+    {
+      id: 1,
+      path: '/',
+      text: 'Presentation',
+    },
+    {
+      id: 2,
+      path: '/projects',
+      text: 'Projects',
+    },
+    {
+      id: 3,
+      path: '/Form',
+      text: 'Contact me',
+    },
+  ];
+
   return (
     <>
       <nav>
@@ -10,15 +33,20 @@ function Navbar() {
             <span className="logo">Logo</span>
           </div>
           <div className="menu-container" id="menu-container">
-            <span className="ham-btn"><i className="fa-sharp fa-solid fa-bars" /></span>
-            <div className="list-container">
-              <ul className="list-menu">
-                <li>Home</li>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact me</li>
-              </ul>
-            </div>
+            <button className="ham-btn" type="button" onClick={handleToggle}>
+              {navbarOpen ? (
+                <>
+                  <i className="fa-solid fa-xmark" />
+                  <ul className="list-menu">
+                    {links.map((index) => (
+                      <li key={index.id}><a href={index.path}>{index.text}</a></li>
+                    ))}
+                  </ul>
+                </>
+              ) : (
+                <i className="fa-sharp fa-solid fa-bars" />
+              )}
+            </button>
           </div>
         </div>
       </nav>
