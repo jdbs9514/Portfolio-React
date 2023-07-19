@@ -13,16 +13,6 @@ function Navbar() {
       path: '/',
       text: 'Presentation',
     },
-    {
-      id: 2,
-      path: '/projects',
-      text: 'Projects',
-    },
-    {
-      id: 3,
-      path: '/Form',
-      text: 'Contact me',
-    },
   ];
 
   return (
