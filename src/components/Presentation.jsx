@@ -26,11 +26,11 @@ function Presentation() {
               </p>
             </div>
           </div>
-          <div className="social-media">
-            <a href="https://github.com/jdbs9514"><img src={github} alt="github" className="github" /></a>
-            <a href="https://www.linkedin.com/in/macoin/"><img src={linkedin} alt="linkedin" className="linkedin" /></a>
-            <a href="https://twitter.com/JODA1015"><img src={twitter} alt="twitter" className="twitter" /></a>
-          </div>
+        </div>
+        <div className="social-media">
+          <a href="https://github.com/jdbs9514"><img src={github} alt="github" className="github" /></a>
+          <a href="https://www.linkedin.com/in/macoin/"><img src={linkedin} alt="linkedin" className="linkedin" /></a>
+          <a href="https://twitter.com/JODA1015"><img src={twitter} alt="twitter" className="twitter" /></a>
         </div>
       </section>
     </>

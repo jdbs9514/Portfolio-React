@@ -87,3 +87,38 @@
 .twitter:hover {
   width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+  .img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 50%;
+    margin-right: 20%;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    filter: sepia(50%);
+    border: 10px solid #66a5ad;
+  }
+
+  .presentation-container {
+    border-radius: 5%;
+    margin: 0% 9%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .presentation {
+    margin: 1%;
+  }
+
+  .text-container {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5%;
+  }
+}
