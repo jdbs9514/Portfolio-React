@@ -122,3 +122,20 @@ a {
   text-decoration: none;
   color: #d5d5d5;
 }
+
+@media screen and (min-width: 768px) {
+  .separate {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .div-text {
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .div-img {
+    margin-top: 5.5%;
+  }
+}

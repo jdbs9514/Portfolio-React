@@ -49,3 +49,14 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (min-width: 768px) {
+  .separate3 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .div-text {
+    margin-top: 5%;
+  }
+}
