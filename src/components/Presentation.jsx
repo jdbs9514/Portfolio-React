@@ -1,37 +1,37 @@
-/* eslint-disable react/self-closing-comp */
 import React from 'react';
-import Skills from './Skills';
-import Projects from './Projects';
-import Form from './Form';
-import Footer from './Footer';
+import josue from '../assets/profile.jpg';
+import '../style/Presentation.css';
+import twitter from '../assets/twitter.png';
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
 
 function Presentation() {
   return (
     <>
       <section className="presentation">
-        <div className="resume">
-          <div className="social-images">
-            <h3>Josue Benavides</h3>
-            <ul>
-              <li className="github"><i className="fa-brands fa-github"></i></li>
-              <li className="linkedin"><i className="fa-brands fa-linkedin"></i></li>
-              <li className="twitter"><i className="fa-brands fa-twitter"></i></li>
-            </ul>
+        <div className="presentation-container">
+          <div className="img-container">
+            <img src={josue} alt="foto" className="img" />
           </div>
-          <div>
-            <span><img src="#" alt="Josue Benavides" /></span>
-            <h1>Nice to meet you! I am Josue Benavides</h1>
-            <p>
-              Based in Perú, i am a Full-stack developer passionate about
-              building accesible web apps that users love.
-            </p>
-            <h3>Contact me</h3>
+          <div className="text-container">
+            <div className="text-cont">
+              <h1 className="name">
+                Hi, I am Josue Benavides,
+                full stack developer
+              </h1>
+              <p className="text">
+                One of the things I am most passionate
+                about in my life is developing functional
+                and intuitive web pages for user management.
+              </p>
+            </div>
           </div>
         </div>
-        <Skills />
-        <Projects />
-        <Form />
-        <Footer />
+        <div className="social-media">
+          <a href="https://github.com/jdbs9514"><img src={github} alt="github" className="github" /></a>
+          <a href="https://www.linkedin.com/in/macoin/"><img src={linkedin} alt="linkedin" className="linkedin" /></a>
+          <a href="https://twitter.com/JODA1015"><img src={twitter} alt="twitter" className="twitter" /></a>
+        </div>
       </section>
     </>
   );

@@ -1,0 +1,124 @@
+.presentation {
+  background: #07575b;
+  background-size: 50px 50px;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  border-radius: 2%;
+  margin: 2%;
+}
+
+.presentation-container {
+  border-radius: 5%;
+  margin: 0% 9%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 40%;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img {
+  width: 60%;
+  border-radius: 50%;
+  margin-top: 10%;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  filter: sepia(50%);
+  border: 10px solid #66a5ad;
+}
+
+.img:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.2);
+  transform-origin: center center;
+}
+
+.text-cont {
+  border: 1px solid #66a5ad;
+  border-radius: 5%;
+  margin-top: 8%;
+  background: #66a5ad;
+  background-size: 50px 50px;
+}
+
+.name,
+.text {
+  margin: 5% 6%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  background-color: #d5d5d5;
+  letter-spacing: 0.05em;
+  text-shadow:
+    4px 4px 0 #d5d5d5,
+    7px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8%;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.github,
+.linkedin,
+.twitter {
+  width: 80%;
+  transition: 1s;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  margin-bottom: 50%;
+  margin-top: 50%;
+  background: #07575b;
+}
+
+.github:hover,
+.linkedin:hover,
+.twitter:hover {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 50%;
+    margin-right: 20%;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    filter: sepia(50%);
+    border: 10px solid #66a5ad;
+  }
+
+  .presentation-container {
+    border-radius: 5%;
+    margin: 0% 9%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .presentation {
+    margin: 1%;
+  }
+
+  .text-container {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5%;
+  }
+}

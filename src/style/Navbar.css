@@ -1,0 +1,63 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.list-menu {
+  list-style-type: none;
+}
+
+.logo-container,
+.menu-container {
+  margin: 1% 5%;
+}
+
+#menu-container {
+  margin-top: 2%;
+}
+
+.ham-btn,
+.logo {
+  color: #c4dfe6;
+  margin-top: 2%;
+  background: none;
+  border: none;
+}
+
+.fa-xmark {
+  transition: 1s;
+  font-size: 1.7rem;
+}
+
+.fa-xmark:hover {
+  transform: rotate(360deg);
+}
+
+.fa-bars {
+  transition: 1s;
+  font-size: 1.7rem;
+}
+
+.fa-bars:hover {
+  transform: rotate(360deg);
+}
+
+.logo {
+  font-size: 1.7rem;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

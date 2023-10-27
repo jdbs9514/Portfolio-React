@@ -1,33 +1,41 @@
 import React from 'react';
+import '../style/Skills.css';
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import js from '../assets/js.png';
+import react from '../assets/react.png';
+import webpack from '../assets/webpack.png';
+import postgres from '../assets/postgres.png';
+import ruby from '../assets/ruby.png';
+import rails from '../assets/rails.png';
+import bootstrap from '../assets/bootstrap.png';
 
 function Skills() {
+  const skillArr = [
+    { id: 1, skill: html },
+    { id: 2, skill: css },
+    { id: 3, skill: js },
+    { id: 4, skill: react },
+    { id: 5, skill: webpack },
+    { id: 6, skill: postgres },
+    { id: 7, skill: ruby },
+    { id: 8, skill: rails },
+    { id: 9, skill: bootstrap },
+  ];
+
   return (
-    <div className="skills">
-      <div className="html">
-        <h2>HTML</h2>
-        <p>1 year experience</p>
+    <section className="skills-container">
+      <div className="skill-container-title">
+        <h2 className="skills-title">Skills</h2>
       </div>
-      <div className="css">
-        <h2>CSS</h2>
-        <p>1 year experience</p>
+      <div className="skill-item">
+        {skillArr.map((item) => (
+          <div key={item.id} className="div-skill">
+            <img className="skill" src={item.skill} alt="skills" />
+          </div>
+        ))}
       </div>
-      <div className="javascript">
-        <h2>JavaScript</h2>
-        <p>1 year experience</p>
-      </div>
-      <div className="react">
-        <h2>React/Redux</h2>
-        <p>1 year experience</p>
-      </div>
-      <div className="ruby">
-        <h2>Ruby</h2>
-        <p>1 year experience</p>
-      </div>
-      <div className="ror">
-        <h2>RoR</h2>
-        <p>1 year experience</p>
-      </div>
-    </div>
+    </section>
   );
 }
 

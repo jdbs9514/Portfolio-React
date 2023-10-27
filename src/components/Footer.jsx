@@ -1,21 +1,15 @@
-/* eslint-disable react/self-closing-comp */
 import React from 'react';
+import '../style/Footer.css';
 
 function Footer() {
   return (
     <div className="footer">
-      <h2>Josué Benavides</h2>
-      <ul>
-        <li className="github">
-          <i className="fa-brands fa-github"></i>
-        </li>
-        <li className="linkedin">
-          <i className="fa-brands fa-linkedin"></i>
-        </li>
-        <li className="twitter">
-          <i className="fa-brands fa-twitter"></i>
-        </li>
-      </ul>
+      <h3 className="footer-text">
+        <i
+          className="fa-regular fa-copyright"
+        />
+        2023 copyright: Josue Benavides
+      </h3>
     </div>
   );
 }
