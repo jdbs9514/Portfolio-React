@@ -38,10 +38,10 @@ function Form() {
         messageSucces.innerHTML = '<i class="fa-solid fa-check"></i> successfully completed';
         divMessage.appendChild(messageSucces);
       } else {
-        console.log('Must be an error');
+        // console.log('Must be an error');
       }
     } catch (error) {
-      console.log('error al enviar');
+      // console.log('error al enviar');
     }
   };
 
