@@ -1,0 +1,141 @@
+.projects {
+  background-image: repeating-linear-gradient(45deg, #66a5ad, #66a5ad 15px, #c4e0e5 15px, #c4e0e5 30px);
+  background-color: #66a5ad;
+  background-size: 20px 20px;
+  border: 1px solid #66a5ad;
+  border-radius: 2%;
+  margin: 2%;
+}
+
+.projects-div {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-title {
+  margin: 5% 25%;
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  letter-spacing: 0.05em;
+  text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+.div-img {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-project {
+  width: 80%;
+  margin-top: 20%;
+  border-radius: 5%;
+  margin-left: 10%;
+}
+
+.div-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+.project-name {
+  margin: 5% 25%;
+  margin-top: 10%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  background-color: #d5d5d5;
+  letter-spacing: 0.05em;
+  text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+.text-project {
+  margin: 5% 3%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  background-color: #d5d5d5;
+  letter-spacing: 0.05em;
+  text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+.html,
+.css,
+.js {
+  background: #66a5ad;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.html:hover,
+.css:hover,
+.js:hover {
+  width: 110%;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+}
+
+.see-btn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 8%;
+  padding: 2%;
+  border: none;
+  background: #66a5ad;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  transition: background-color 2s;
+}
+
+.see-btn:hover {
+  background: #396df2;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #d5d5d5;
+}
+
+@media screen and (min-width: 768px) {
+  .separate {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .div-text {
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .div-img {
+    margin-top: 5.5%;
+  }
+}

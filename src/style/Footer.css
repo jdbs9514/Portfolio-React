@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #66a5ad;
+}
+
+.footer-text {
+  border-radius: 2%;
+  padding: 5%;
+  font-size: small;
+}

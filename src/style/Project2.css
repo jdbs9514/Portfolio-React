@@ -1,0 +1,66 @@
+.photo-project2 {
+  width: 80%;
+  margin-top: 20%;
+  border-radius: 5%;
+  margin-left: 10%;
+}
+
+.project-name2 {
+  margin: 5% 25%;
+  margin-top: 10%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  background-color: #d5d5d5;
+  letter-spacing: 0.05em;
+  text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+.text-project2 {
+  margin: 5% 3%;
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  background-color: #d5d5d5;
+  letter-spacing: 0.05em;
+  text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+.html,
+.css,
+.js,
+.react {
+  background: #66a5ad;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.html:hover,
+.css:hover,
+.js:hover,
+.react:hover {
+  width: 110%;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .separate2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}
